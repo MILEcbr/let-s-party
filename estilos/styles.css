@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*menu*/
+.header{
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.header header .logo a{
+    font-size: 36px;
+    color: orangered;
+    text-decoration: none;
+}
+.header header ul{
+    display: flex;
+    list-style: none;
+}
+.header header nav ul li a{
+    text-align: none;
+    font-size: 25px;
+    color: #fff;
+    margin: 0 30px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.header header nav ul li a:hover{
+    color: orangered;
+}
+.nav-responsive{
+    background-color: orangered;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+/*inicio*/
+.inicio .banner h2{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Oswald';
+}
+.bares{
+    background-color: rgb(143, 108, 88);
+    color: black;
+    padding: 50px 20px;
+}
+.bares .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.bares h2{
+    font-size: 48px;
+    font-family: 'Oswald';
+    text-align: center;
+    padding: 20px 0;
+}
+.bares .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bares .galeria .bar{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor:pointer;
+
+}
+.bares .galeria .bar img{
+    display: block;
+}
+
+/*boliches*/
+.boliches{
+    background-color: rgb(204, 108, 52);
+    color: black;
+    padding: 50px 20px;
+}
+.boliches .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.boliches h2{
+    font-size: 48px;
+    font-family: 'Oswald';
+    text-align: center;
+    padding: 20px 0;
+}
+.boliches .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boliches .galeria .boli{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor:pointer;
+
+}
+.boliches .galeria .boli img{
+    display: block;
+}
+/*pool*/
+.poolybowling{
+    background-color: rgb(143, 108, 88);
+    color: black;
+    padding: 50px 20px;
+}
+.poolybowling .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.poolybowling h2{
+    font-size: 48px;
+    font-family: 'Oswald';
+    text-align: center;
+    padding: 20px 0;
+}
+.poolybowling .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.poolybowling .galeria .poolybow{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor:pointer;
+
+}
+.poolybowling .galeria .poolybow img{
+    display: block;
+}
+
+/* Estilos de la galería */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.galeria .bar,
+.galeria .boli,
+.galeria .poolybow {
+    text-align: center;
+    max-width: 300px;
+    flex: 1 1 calc(33.33% - 40px);
+    box-sizing: border-box;
+}
+
+.galeria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Títulos debajo de las imágenes */
+.galeria h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.overlay p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: black;
+}
+
+/* centrado */
+.contenido-seccion {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+
+
